@@ -1,33 +1,25 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.houses {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  padding: 20px;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.house {
+  max-width: 400px;
+  margin: 10px 20px 10px 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.house img {
+  width: 100%;
+  object-fit: cover;
+  height: 300px;
+}
+
+.house p {
+  padding: 0 20px;
+}
+
+.templates-select {
+  text-align: center;
 }
